@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", serif;
+}
+a {
+  text-decoration: none;
+}
+/* <!-- ******************** Start  Navbar  ******************** --> */
+.navbar {
+  padding: 1.75rem 0;
+}
+.navbar-nav .nav-item .nav-link {
+  text-align: center;
+  font-weight: 600;
+  padding-right: 1.375rem;
+  padding-left: 1.375rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: #1f1f1f;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.navbar-collapse > div > button {
+  padding: 0.45rem 2rem;
+  border-radius: 4px;
+}
+/* <!-- ******************** End Navbar  ******************** --> */
+/* <!-- ******************** Start Interior Design Section ******************** --> */
+.Interior-Design {
+  padding: 70px 0;
+}
+.Interior-Design .text-content h1 {
+  font-size: 6.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.Interior-Design .text-content p {
+  line-height: 30px;
+  font-size: 1.1rem;
+  margin-left: 8px;
+  font-weight: 500;
+  width: 75%;
+  color: rgb(77 84 90) !important;
+}
+.Interior-Design .row > div.col-lg-4:last-child {
+  padding: 0;
+}
+.Interior-Design div.row .Start .our-number {
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+.Interior-Design div.row .Start .our-number .number {
+  color: #545454;
+}
+.Interior-Design div.row .Start .our-number .number h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.Interior-Design div.row:last-child {
+  padding: 32px 0;
+}
+.Interior-Design div.row .Start button.btn-dark {
+  background-color: #1f1f1f;
+  font-weight: 500;
+  font-size: 1.15rem;
+  padding: 1.15rem 4rem;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.Interior-Design div.row .Start button.btn-dark:hover {
+  background-color: #1f1f1fc5;
+}
+.Interior-Design div.row .Shape .image::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  left: -22px;
+  top: -22px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  z-index: -1;
+  border-radius: 3px;
+}
+.Interior-Design div.row .Shape .image img {
+  width: 88%;
+}
+.Interior-Design div.row .Shape .image .shape-button {
+  width: 110px;
+  height: 110px;
+  background-color: #1f1f1f;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+}
+.Interior-Design div.row .Shape .image .shape-button img {
+  color: #ffffff;
+}
+/* .Interior-Design div.row .Start {} */
+/* <!-- ******************** End Interior Design Section  ******************** --> */
+/* <!-- ******************** Start Our Services Section ******************** --> */
+.Our-Services .title {
+  display: flex;
+  align-items: center;
+}
+.Our-Services .title h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.Our-Services .title span {
+  display: block;
+  margin-right: 20px;
+  width: 7%;
+  border: 0.085rem solid black;
+}
+.Our-Services .Box .icon {
+  width: 35%;
+}
+.Our-Services .Box .icon img {
+  width: 100%;
+}
+.Our-Services .Box .text h5 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  margin-bottom: 35px;
+}
+.Our-Services .Box .text p {
+  font-weight: 500;
+  color: #545454;
+}
+/* <!-- ******************** End Our Services Section ******************** --> */
+/* <!-- ******************** Start Exhibition Section ******************** --> */
+.Exhibition .text h1 {
+  font-size: 2.875rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.Exhibition .text p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #545454;
+  line-height: 28px;
+}
+.Exhibition .accordion-item {
+  border: none;
+  border-bottom: 1px solid #54545429;
+}
+.Exhibition .accordion-button::after {
+  background-image: url("/img/plus.png");
+}
+.Exhibition .accordion-button:not(.collapsed)::after {
+  background-image: url("/img/plus.png");
+}
+.Exhibition .accordion-button:focus {
+  box-shadow: none;
+}
+.Exhibition .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: black;
+  box-shadow: none;
+}
+.Exhibition .accordion-button {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.Exhibition .text > button {
+  background-color: #1f1f1f;
+  font-weight: 500;
+  font-size: 1.15rem;
+  padding: 1.15rem 3.5rem;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.Exhibition .text > button:hover {
+  background-color: #1f1f1fc5;
+}
+/* <!-- ******************** End Exhibition Section ******************** --> */
+/* <!-- ******************** Start Our production Section ******************** --> */
+.Our-production {
+  padding: 70px 0;
+}
+.Our-production .text h1 {
+  font-size: 2.875rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.Our-production .container .row .text .Steps .Step {
+  margin-bottom: 20px;
+}
+.Our-production .container .row .text .Steps .Step .row:first-child {
+  align-items: center;
+}
+.Our-production .text .Steps .Step .row .col-9:last-child {
+  padding-right: 0;
+}
+.Our-production .text .Steps .Step .row .col-2 {
+  padding-left: 0;
+}
+.Our-production .text .Steps .Step .row .col-2 span {
+  display: block;
+  width: 1px;
+  height: 70%;
+  background-color: #1f1f1f57;
+  margin: 30px auto 0;
+}
+.Our-production .text .Steps .Step h5 {
+  font-weight: 700;
+  font-size: 1.375rem;
+  margin-bottom: 0;
+}
+.Our-production .text .Steps .Step p {
+  font-weight: 500;
+  font-size: 1.08rem;
+  line-height: 27px;
+  margin-top: 10px;
+  color: #545454;
+}
+.Our-production .text .Steps .Step .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #1f1f1f !important;
+}
+.Our-production .text .Steps .Step .icon img {
+  width: 40%;
+}
+/* <!-- ******************** End Our production Section ******************** --> */
+/* <!-- ******************** Start Comments Section ******************** --> */
+.Comments .text h1 {
+  font-size: 2.875rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.Comments .image div div.btn {
+  padding-top: 13px;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Comments .container .row .row.position-absolute {
+  justify-content: end;
+  bottom: 0;
+}
+.Comments .quote {
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  padding: 60px 45px;
+  border-radius: 3px;
+}
+.Comments .quote > p {
+  font-size: 1.125rem;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.Comments .quote .sign svg {
+  width: 11%;
+  margin-bottom: 50px;
+}
+.Comments .quote .person img {
+  width: 15%;
+  margin-right: 20px;
+}
+.Comments .quote .person .text h5 {
+  margin-bottom: 5px;
+}
+/* <!-- ******************** End Comments Section ******************** --> */
+/* <!-- ******************** Start Subscribe Section ******************** --> */
+.Subscribe .row {
+  justify-content: center;
+}
+.Subscribe .send-to-us {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px;
+}
+.Subscribe .send-to-us .Newsletter {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.Subscribe .send-to-us h1 {
+  font-size: 2.875rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.Subscribe .send-to-us .Newsletter > p {
+  width: 88%;
+  font-weight: 500;
+  font-size: 1.05rem;
+  line-height: 27px;
+  margin-top: 10px;
+  color: #545454;
+}
+.Subscribe .send-to-us .input {
+  box-shadow: 0px -4px 20px 0px #1f1f1f20;
+  padding: 7px 7px 7px 40px;
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: -85px;
+  z-index: 10;
+  position: relative;
+  background-color: #fff;
+}
+.Subscribe .send-to-us .input button {
+  background-color: #1f1f1f;
+  font-weight: 500;
+  font-size: 1.15rem;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+  transition: all 0.3s;
+  color: #f1f1f1;
+}
+.Subscribe .send-to-us .input button:hover {
+  background-color: #1f1f1fc5;
+}
+.Subscribe .send-to-us .input p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 27px;
+  margin-top: 10px;
+  color: #7a7a7a;
+}
+/* <!-- ******************** End Subscribe Section ******************** --> */
+/* <!-- ******************** Start Footer  Section ******************** --> */
+footer {
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  padding: 90px 0;
+}
+footer .row div .image {
+  margin-bottom: 40px;
+}
+footer .row div .image img {
+  width: 40%;
+  cursor: pointer;
+}
+footer .row div:first-child p {
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.05rem;
+  line-height: 27px;
+  margin-top: 10px;
+  color: #d1d1d1;
+}
+footer .row div:first-child .icons {
+  margin-top: 40px;
+  display: flex;
+}
+footer .row div:first-child .icons svg {
+  transition: all 0.3s;
+  width: 80%;
+}
+footer .row div:first-child .icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: #313131;
+  transition: all 0.3s;
+}
+footer .row div:first-child .icons i:hover,
+footer .row div:first-child .icons svg:hover {
+  background-color: #828282;
+}
+footer .row div:first-child .icons i:not(:first-child) {
+  margin-left: 20px;
+}
+footer .row div:nth-child(2) a,
+footer .row div:nth-child(3) a,
+footer .row div:nth-child(4) a {
+  margin-top: 20px;
+  color: #d1d1d1;
+}
+/* <!-- ******************** end Footer Section ******************** --> */
+
+@media (max-width: 992px) {
+  .Interior-Design .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 576px) {
+  .Our-Services .title {
+    justify-content: center;
+  }
+  .Our-Services .Box .text {
+    text-align: center;
+  }
+}
