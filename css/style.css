@@ -390,21 +390,168 @@ footer .row div:nth-child(4) a {
   color: #d1d1d1;
 }
 /* <!-- ******************** end Footer Section ******************** --> */
-
+@media (max-width: 1200px) {
+  .Comments .text h1 {
+    font-size: 2rem;
+  }
+  .Comments .quote > p {
+    font-size: 0.875rem;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+}
 @media (max-width: 992px) {
+  .Interior-Design .text-content p {
+    text-align: center;
+  }
   .Interior-Design .text-content {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .Interior-Design div.row:last-child div:first-child {
+    margin-top: 30px;
+    order: 2;
+  }
+  .Interior-Design div.row:last-child div:last-child {
+    order: 1;
+  }
+  .Interior-Design div.row .Start .our-number div:first-child {
+    margin-top: 0;
+  }
+  .Interior-Design .text-content h1 {
+    font-size: 4rem;
+  }
+  .Our-Services .title h1 {
+    font-size: 2rem;
+  }
+  .Exhibition .row div:last-child {
+    padding-top: 20px;
+  }
+  .Exhibition .text h1 {
+    font-size: 1.875rem;
+  }
+  .Exhibition .text p {
+    font-size: 0.8rem;
+  }
+  .Exhibition .text > button {
+    padding: 0.875rem 1.5rem;
+  }
+  .Comments .text h1 {
+    font-size: 2.5rem;
+  }
+  .Comments .container .row div.col-lg-6:first-child {
+    order: 2;
+  }
+  .Comments .container .row div.col-lg-6:last-child {
+    order: 1;
+  }
+  .Comments .quote .person .text h5 {
+    margin-bottom: 0px;
+  }
+  .Comments .quote .person img {
+    width: 10%;
+  }
+  .Comments div.quote:first-child {
+    margin-bottom: 10px;
+  }
+  .Comments .quote {
+    padding: 10px 10px;
+  }
 }
 @media (max-width: 767px) {
+  .Interior-Design div.row .Start .our-number {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .Our-production .text .Steps {
+    padding: 15px 15px 40px;
+  }
+  .Our-production .text h1 {
+    font-size: 1.875rem;
+  }
+  .Subscribe .send-to-us {
+    width: 100%;
+  }
+  .Subscribe .send-to-us .input p {
+    font-size: 0.7rem;
+  }
+  .Subscribe .send-to-us .input button {
+    font-size: 0.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .Subscribe .send-to-us .input {
+    margin-bottom: -65px;
+  }
+  .Comments .quote .sign svg {
+    width: 7%;
+    margin-bottom: 0px;
+  }
+  .Comments .quote .person .text h5 {
+    font-size: 0.8rem;
+  }
+  .Comments .quote .person .text p {
+    font-size: 0.6rem;
+  }
+  .Subscribe .send-to-us .Newsletter {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Subscribe .send-to-us h1 {
+    font-size: 1.875rem;
+  }
 }
+/* ********************************************************* */
 @media (max-width: 576px) {
   .Our-Services .title {
     justify-content: center;
   }
   .Our-Services .Box .text {
     text-align: center;
+  }
+  .Interior-Design .text-content h1 {
+    font-size: 3rem;
+  }
+  .Interior-Design div.row .Start .our-number .number p {
+    font-size: 0.875rem;
+  }
+  .Interior-Design div.row .Start .our-number .number h1 {
+    font-size: 2.5rem;
+  }
+  .Comments .quote > p {
+    font-size: 0.7rem;
+  }
+  .Comments .quote {
+    padding: 3px 3px;
+  }
+  .Comments .quote > p {
+    margin-bottom: 5px;
+  }
+  footer .row div.col-md-5.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .row div .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .row div .image img {
+    width: 100%;
+  }
+  footer .row div:first-child {
+    margin-bottom: 20px;
+  }
+  footer .row div:first-child p {
+    text-align: center;
+  }
+  footer .row div.col-md-2.col-sm-6 div,
+  footer .row div.col-md-3.col-sm-6 div {
+    align-items: center;
+    margin-top: 20px;
   }
 }
