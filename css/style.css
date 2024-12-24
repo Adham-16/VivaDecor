@@ -118,9 +118,18 @@ a {
   width: 7%;
   border: 0.085rem solid black;
 }
+.Our-Services .Box {
+  transition: all 0.3s;
+  padding: 5px;
+}
+.Our-Services .Box:hover {
+  background-color: #cfcece;
+  border-radius: 3px;
+}
 .Our-Services .Box .icon {
   width: 35%;
 }
+
 .Our-Services .Box .icon img {
   width: 100%;
 }
@@ -196,6 +205,12 @@ a {
 .Our-production .container .row .text .Steps .Step .row:first-child {
   align-items: center;
 }
+.Our-production .text .Steps .Step:hover .row .col-2 span {
+  position: relative;
+  transform: rotate(180deg);
+  top: -50px;
+  opacity: 0;
+}
 .Our-production .text .Steps .Step .row .col-9:last-child {
   padding-right: 0;
 }
@@ -203,6 +218,7 @@ a {
   padding-left: 0;
 }
 .Our-production .text .Steps .Step .row .col-2 span {
+  transition: all 2s;
   display: block;
   width: 1px;
   height: 70%;
@@ -250,6 +266,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 30;
+}
+.Comments .image div div.btn:hover {
+  background-color: #cfcece;
 }
 .Comments .container .row .row.position-absolute {
   justify-content: end;
